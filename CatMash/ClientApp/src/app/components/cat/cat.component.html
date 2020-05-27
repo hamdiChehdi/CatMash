@@ -1,0 +1,12 @@
+<mat-card *ngIf="catData">
+
+  <mat-card-title>{{ catData.name }}</mat-card-title>
+
+  <mat-card-content>
+    <img src="{{ catData.url }}" width="200" height="200" />
+
+    <button mat-fab *ngIf="activateVote" (click)="ClickOnLike()">
+      <mat-icon>favorite</mat-icon>
+    </button>
+  </mat-card-content>
+</mat-card>

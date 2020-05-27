@@ -1,0 +1,10 @@
+button:focus, button:active:focus, button.active:focus {
+  outline: none !important;
+  outline-style: none !important;
+}
+
+button[mat-fab] {
+  margin: 15px;
+  height: 70px;
+  width: 70px;
+}

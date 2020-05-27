@@ -1,0 +1,20 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}
+
+.centerText {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight:bold;
+  color: deeppink;
+  width: 50%;
+}
+
+
+
+

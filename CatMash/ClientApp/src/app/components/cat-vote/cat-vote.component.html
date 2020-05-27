@@ -1,0 +1,10 @@
+
+<img src="/assets/Cutest.png" class="center" />
+
+<h1 class="centerText">Vote for the cutest ! </h1>
+
+<div class="row justify-content-around">
+  <app-cat *ngIf="firstCat" class="col-4" [catData]="firstCat" [activateVote]="true" (catLiked)="Vote($event)"></app-cat>
+  <app-cat *ngIf="secondCat" class="col-4" [catData]="secondCat" [activateVote]="true" (catLiked)="Vote($event)"></app-cat>
+
+</div>
