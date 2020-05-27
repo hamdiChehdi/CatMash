@@ -15,7 +15,9 @@ Asp core 3.1
    - Sql server localdb
 
 Leaderboard: Cats sorted by vote numbers
+
 ![](Leaderboard.png)
 
 Vote for the cutest between two random cats
+
 ![](VoteScreen.png)
